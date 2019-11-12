@@ -1,0 +1,31 @@
+{
+  "name": "resume-dg",
+  "version": "1.0.0",
+  "description": "Dakota Grusak's Resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dakotagrusak/resume-dg.git"
+  },
+  "keywords": [
+    "Dakota",
+    "Grusak",
+    "Resume",
+    "Software",
+    "Developer",
+    "Test",
+    "Automation"
+  ],
+  "author": "Dakota Grusak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dakotagrusak/resume-dg/issues"
+  },
+  "homepage": "https://github.com/dakotagrusak/resume-dg#readme",
+  "dependencies": {
+    "hackmyresume": "^1.9.0-beta"
+  }
+}
