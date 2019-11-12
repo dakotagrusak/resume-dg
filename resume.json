@@ -1,0 +1,130 @@
+{
+  "basics": {
+    "name": "Dakota Willem Grusak",
+    "email": "dakotagrusak[at]gmail[dot]com",
+    "label": "",
+    "phone": "(713)-657-0096",
+    "website": "https://dakotagrusak.github.io",
+    "summary": "",
+    "location": {
+        "address": "",
+        "postalCode": "TX 77006",
+        "city": "Houston",
+        "countryCode": "US",
+        "region": "Texas"    
+    },
+   "profiles": [{
+      "network": "Twitter",
+      "username": "dak0tagrusak",
+      "url": "http://twitter.com/dak0tagrusak"
+    }]
+  },
+  "education": [
+    {
+      "institution": "Trinity University",
+      "location": "San Antonio, TX",
+      "area": "Engineering Science (Focus in electrical engineering & applied mathematics)",
+      "studyType": "BS",
+      "startDate": "Sep 2014",
+      "endDate": "May 2019"
+    }
+  ],
+  "work": [
+    {
+      "website": "",
+      "highlights": [
+        "Taught 3D parametric modeling using Creo Parametric to 90+ engineering students",
+        "Influenced comprehension of parametric design fundamentals including modeling, drafting, and 2D documentation drawing"
+      ],
+      "company": "Department of Engineering Science, Trinity University",
+      "position": "Undergraduate Teaching Assistant",
+      "location": "San Antonio, TX",
+      "startDate": "May 2016",
+      "endDate": "Dec 2018"
+    },
+    {
+      "website": "",
+      "highlights": [
+        "Processed, cleaned, and filtered EEG time-series frequency data for 400+ human subjects using EEGLABS and signal processing MATLAB toolboxes",
+        "Designed database to describe five error types, from the data collection method, seen in the dataset.",
+        "Implemented matlab scripting to remove artifacts based on the their time-series location",
+        "Applied k-means clustering to the error types and terminal location to assess the usability of each headset system",
+        "Assessed the similarity of the frequency domain content of common electrodes using a data-driven unsupervised k-means clustering approach"
+      ],
+      "company": "Brain-Machine Interface Lab, University of Houston/ Methodist Health",
+      "location": "Houston, TX",
+      "startDate": "May 2016",
+      "endDate": "Dec 2016",
+      "position": "Undergraduate Research Intern"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages"
+      "level": "",
+      "keywords": [
+        "Python, SQL, C, MATLAB,"
+      ],
+
+    },
+    {
+      "name": "DevOps"
+      "level": "",
+      "keywords": [
+        "Git, Docker "
+      ],
+    }
+  ],
+  "projects": [
+    {
+      "name": "CAPCHA Solver",
+      "keywords": [
+        "Python",
+        "OpenCV, Tensorflow, Keras",
+        "Docker"
+      ],
+      "url": "https://github.com/dakotagrusak/captcha-solver",
+      "description": "Developed convolutionary neural network to bypass a CAPTCHA system using OpenCV for image processing and Tensorflow and Keras to build and train the deep learning model . Contanerized with a python Docker image."
+    },
+    {
+      "keywords": [
+        "C",
+        "Visual Studio Code"
+      ],
+      "name": "Two-player Tic-Tac-Toe",
+      "description": "A two-player command line implementation of tic-tac-toe implemented with basic data structures, logic, and pointers"
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference..."
+  }]
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "projects",
+    "skills",
+    "awards"
+  ]
+}
