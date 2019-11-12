@@ -1,130 +1,157 @@
 {
-  "basics": {
-    "name": "Dakota Willem Grusak",
-    "email": "dakotagrusak[at]gmail[dot]com",
-    "label": "",
-    "phone": "(713)-657-0096",
-    "website": "https://dakotagrusak.github.io",
-    "summary": "",
-    "location": {
-        "address": "",
-        "postalCode": "TX 77006",
-        "city": "Houston",
-        "countryCode": "US",
-        "region": "Texas"    
-    },
-   "profiles": [{
-      "network": "Twitter",
-      "username": "dak0tagrusak",
-      "url": "http://twitter.com/dak0tagrusak"
-    }]
-  },
-  "education": [
-    {
-      "institution": "Trinity University",
-      "location": "San Antonio, TX",
-      "area": "Engineering Science (Focus in electrical engineering & applied mathematics)",
-      "studyType": "BS",
-      "startDate": "Sep 2014",
-      "endDate": "May 2019"
-    }
-  ],
-  "work": [
-    {
-      "website": "",
-      "highlights": [
-        "Taught 3D parametric modeling using Creo Parametric to 90+ engineering students",
-        "Influenced comprehension of parametric design fundamentals including modeling, drafting, and 2D documentation drawing"
-      ],
-      "company": "Department of Engineering Science, Trinity University",
-      "position": "Undergraduate Teaching Assistant",
-      "location": "San Antonio, TX",
-      "startDate": "May 2016",
-      "endDate": "Dec 2018"
-    },
-    {
-      "website": "",
-      "highlights": [
-        "Processed, cleaned, and filtered EEG time-series frequency data for 400+ human subjects using EEGLABS and signal processing MATLAB toolboxes",
-        "Designed database to describe five error types, from the data collection method, seen in the dataset.",
-        "Implemented matlab scripting to remove artifacts based on the their time-series location",
-        "Applied k-means clustering to the error types and terminal location to assess the usability of each headset system",
-        "Assessed the similarity of the frequency domain content of common electrodes using a data-driven unsupervised k-means clustering approach"
-      ],
-      "company": "Brain-Machine Interface Lab, University of Houston/ Methodist Health",
-      "location": "Houston, TX",
-      "startDate": "May 2016",
-      "endDate": "Dec 2016",
-      "position": "Undergraduate Research Intern"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Languages"
-      "level": "",
-      "keywords": [
-        "Python, SQL, C, MATLAB,"
-      ],
+  "name": "Dakota Willem Grusak",
 
-    },
-    {
-      "name": "DevOps"
-      "level": "",
-      "keywords": [
-        "Git, Docker "
-      ],
-    }
-  ],
+  "meta": {
+    "format": "FRESH@^1.0.0-beta",
+    "modified": "2019-11-12T22:45:29.300Z"
+  },
+
+  "info": {
+    "label": "",
+    "brief": ""
+  },
+
+  "contact": {
+    "email": "dakotagrusak@gmail.com",
+    "phone": "(713)-657-0096",
+    "website": "https://dakotagrusak.github.io"
+  },
+
+  "location": {
+    "city": "Houston",
+    "region": "Texas",
+    "country": "US",
+    "code": "TX 77006",
+    "address": ""
+  },
+
+  "employment": {
+    "history": [
+      {
+        "position": "Undergraduate Teaching Assistant",
+        "employer": "Department of Engineering Science, Trinity University",
+        "start": "2016-05-01",
+        "end": "2018-12-01",
+        "url": "https://new.trinity.edu/academics/departments/engineering-science",
+        "keywords": [],
+        "highlights": [
+          "Taught 3D parametric modeling using Creo Parametric to 90+ engineering students",
+          "Influenced comprehension of parametric design fundamentals including modeling, drafting, and 2D documentation drawing"
+        ]
+      },
+      {
+        "position": "Undergraduate Research Intern",
+        "employer": "Brain-Machine Interface Lab, University of Houston/ Methodist Health",
+        "start": "2016-05-01",
+        "end": "2016-05-01",
+        "url": "https://www.houstonmethodist.org/1285_houstonmethodist/2847_ourresearch/2953_research_ourfaculty/2954_research_labs/research_contreras_vidallab/",
+        "keywords": ["MATLAB", "C"],
+        "highlights": [
+          "Processed, cleaned, and filtered EEG time-series frequency data for 400+ human subjects using EEGLABS and signal processing MATLAB toolboxes",
+          "Designed database to describe five error types, from the data collection method, seen in the dataset.",
+          "Implemented matlab scripting to remove artifacts based on the their time-series location",
+          "Applied k-means clustering to the error types and terminal location to assess the usability of each headset system",
+          "Assessed the similarity of the frequency domain content of common electrodes using a data-driven unsupervised k-means clustering approach"
+        ]
+      }
+    ]
+  },
+
+  "education": {
+    "level": "",
+    "history": [
+      {
+        "institution": "Trinity University",
+        "start": "2014-09-01",
+        "end": "2019-05-01",
+        "grade": "",
+        "curriculum": [],
+        "summary": "",
+        "area": "Engineering Science (Focus in electrical engineering & applied mathematics)",
+        "studyType": "BS"
+      }
+    ]
+  },
+
   "projects": [
     {
-      "name": "CAPCHA Solver",
-      "keywords": [
-        "Python",
-        "OpenCV, Tensorflow, Keras",
-        "Docker"
-      ],
-      "url": "https://github.com/dakotagrusak/captcha-solver",
-      "description": "Developed convolutionary neural network to bypass a CAPTCHA system using OpenCV for image processing and Tensorflow and Keras to build and train the deep learning model . Contanerized with a python Docker image."
+      "title": "CAPTCHA Solver",
+      "category": "",
+      "role": "",
+      "url": "",
+      "start": "2019-08",
+      "repo": "https://github.com/dakotagrusak/captcha-solver",
+      "description": "Developed convolutionary neural network to bypass a CAPTCHA system using OpenCV for image processing and Tensorflow and Keras to build and train the deep learning model . Contanerized with a python Docker image.",
+      "summary": "",
+      "keywords": ["Python", "OpenCV", "Tensorflow", "Keras", "Docker"],
+      "media": [
+        {
+          "category": "",
+          "url": ""
+        }
+      ]
     },
     {
-      "keywords": [
-        "C",
-        "Visual Studio Code"
-      ],
-      "name": "Two-player Tic-Tac-Toe",
-      "description": "A two-player command line implementation of tic-tac-toe implemented with basic data structures, logic, and pointers"
+      "title": "Two-player Tic-Tac-Toe",
+      "category": "",
+      "role": "",
+      "url": "",
+      "start": "2018-01",
+      "repo": "",
+      "description": "A two-player command line implementation of tic-tac-toe implemented with basic data structures, logic, and pointers",
+      "summary": "",
+      "keywords": ["C", "Visual Studio"],
+      "media": [
+        {
+          "category": "",
+          "url": ""
+        }
+      ]
     }
   ],
-  "awards": [
-    {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "summary": ""
-    }
-  ],
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
+
+  "skills": {
+
+    "sets": [
+      {
+        "name": "Languages",
+        "level": "",
+        "skills": [
+          "Python", "SQL", "C", "MATLAB"
+        ]
+      },
+      {
+        "name": "DevOps",
+        "level": "",
+        "skills": [
+          "Git", "Docker"
+        ]
+      }
     ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference..."
-  }]
-  "sections": [
-    "templates",
-    "profile",
-    "education",
-    "work",
-    "projects",
-    "skills",
-    "awards"
+  },
+
+  "social": [
+    {
+      "label": "Twitter",
+      "network": "Twitter",
+      "url": "https://twitter.com/dak0tagrusak",
+      "user": "dak0tagrusak"
+    }
+  ],
+
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native"
+    }
+  ],
+
+  "interests": [
+    {
+      "keywords": [
+        "Ferrets", "Unicorns"
+      ],
+      "name": "Wildlife"
+    }
   ]
 }
