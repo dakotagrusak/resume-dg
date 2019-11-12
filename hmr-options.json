@@ -1,0 +1,11 @@
+{
+  "theme": "modern",
+  "debug": true,
+  "pdf": "wkhtmltopdf",
+  "wkhtmltopdf": {
+    "margin-top": "20mm",
+    "page-size": "A4",
+    "orientation": "portrait",
+    "title": "Dakota Grusak's CV"
+  }
+}
